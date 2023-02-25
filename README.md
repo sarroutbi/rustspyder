@@ -1,4 +1,4 @@
-# rustspyder
+# rustspider
 A web crawling robot, written in Rust
 
 ## configuration
