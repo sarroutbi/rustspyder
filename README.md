@@ -21,6 +21,6 @@ Crawler will provide a mechanism to store "concepts" associated to filters. Norm
 would be saved so that concept can be later used (stored in database, stored in file, displayed in terminal, whatever)
 
 ## Dumps
-Dumps will be mechanisms to dump each of the concept, together with its value, to a particular output artifact (file, database, whatever)
+Dumps will be mechanisms to dump each of the concepts, together with its value, to a particular output artifact (file, database, whatever)
 
 As stated initially, all this should be handled via one or several configuration files (it will depend on design requirements)
