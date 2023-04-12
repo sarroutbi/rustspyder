@@ -44,3 +44,23 @@ fn help_check_options_test() -> Result<(), Box<dyn std::error::Error>> {
         .stdout(predicate::str::contains(RUSTSPYDER_BINARY));
     Ok(())
 }
+
+#[test]
+fn verbose_check_test() -> Result<(), Box<dyn std::error::Error>> {
+    let mut cmd = Command::cargo_bin(RUSTSPYDER_BINARY)?;
+    cmd.arg("-v");
+    cmd.assert()
+        .success()
+        .stdout(predicate::str::contains("Verbose"));
+    Ok(())
+}
+
+#[test]
+fn config_test() -> Result<(), Box<dyn std::error::Error>> {
+    let mut cmd = Command::cargo_bin(RUSTSPYDER_BINARY)?;
+    cmd.arg("-c").arg("config.txt");
+    cmd.assert()
+        .success()
+        .stdout(predicate::str::contains("Configuration"));
+    Ok(())
+}
