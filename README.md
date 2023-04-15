@@ -1,13 +1,16 @@
 # rustspyder
-A web crawling robot, written in Rust
 
 ## Contents
 
-- [Configuration](#Configuration)
+- [Introduction](#introduction)
+- [Configuration](#configuration)
 - [Web Parsing and Navigation](#web-parsing-and-navigation)
-- [Filters](#Filters)
-- [Concepts](#Concepts)
-- [Dumps](#Dumps)
+- [Filters](#filters)
+- [Concepts](#concepts)
+- [Dumps](#dumps)
+
+## Introduction
+A web crawling robot, written in Rust
 
 ## configuration
 Ideally, all configuration for the robot will be performed via configuration files. The unique parameters to provide to binary should be:
@@ -18,7 +21,7 @@ Ideally, all configuration for the robot will be performed via configuration fil
 
 Preferably, the options to binary will be provided in both short and long options (-h|--help; -v|--verbose; -c|--configuration-file).
 
-## Web parsing and navigation
+## Web Parsing And Navigation
 Initially, rustspyder is thought to be used with "plain html" web pages. Navigating heavy javascripted sites is not the use of case, although ideally in later phases should be handled similarly to plan html sites. Robot will perform easy mechanisms to navigate through different pages by configuration provided, so that crawler will be able to navigate
 
 ## Filters
