@@ -22,7 +22,7 @@ Ideally, all configuration for the robot will be performed via configuration fil
 Preferably, the options to binary will be provided in both short and long options (-h|--help; -v|--verbose; -c|--configuration-file).
 
 ## Web Parsing And Navigation
-Initially, rustspyder is thought to be used with "plain html" web pages. Navigating heavy javascripted sites is not the case of use, although ideally in later phases should be handled similarly to plan html sites. Robot will perform easy mechanisms to navigate through different pages by configuration provided, so that crawler will be able to navigate.
+Initially, rustspyder is thought to be used with "plain html" web pages. Navigating heavy javascripted sites is not the use case, although ideally in later phases should be handled similarly to plan html sites. Robot will perform easy mechanisms to navigate through different pages by configuration provided, so that crawler will be able to navigate.
 
 ## Filters
 Web crawler will provide filters so that once a web page is retrieved, a filter can be provided to keep some of the information in the site that could be useful, such as a model, a price, a description, etc. A set of common filters (for price parsing, html elimination, model or description parsing, etc) will be available for user.
