@@ -13,7 +13,7 @@
 A web crawling robot, written in Rust.
 
 ## Configuration
-Ideally, all configuration for the robot will be performed via configuration files. The unique parameters to provide to binary should be:
+Ideally, all configuration for the robot will be performed through configuration files. The unique parameters to provide to binary should be:
 
 1. verbosity
 2. help
