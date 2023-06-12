@@ -1,3 +1,5 @@
+[![Rust](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml)
+
 # rustspyder
 
 ## Contents
