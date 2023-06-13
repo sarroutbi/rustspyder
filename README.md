@@ -1,4 +1,4 @@
-[![Rust](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml)
+[![Rust](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml)\
 [![spellcheck](https://github.com/sarroutbi/rustspyder/actions/workflows/spellcheck.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/spellcheck.yaml)
 
 # rustspyder
