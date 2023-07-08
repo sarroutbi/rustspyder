@@ -1,8 +1,15 @@
+# rustspyder
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Status
+
 [![Rust](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/rust.yaml)\
 [![Security Audit](https://github.com/sarroutbi/rustspyder/actions/workflows/audit.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/audit.yaml)\
 [![spellcheck](https://github.com/sarroutbi/rustspyder/actions/workflows/spellcheck.yaml/badge.svg)](https://github.com/sarroutbi/rustspyder/actions/workflows/spellcheck.yaml)
 
-# rustspyder
 
 ## Contents
 
