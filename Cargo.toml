@@ -3,10 +3,8 @@ name = "rustspyder"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-clap = { version = "4.3.9", features = ["derive"] }
-assert_cmd = { version = "2.0.11" }
+clap = { version = "4.4.1", features = ["derive"] }
+assert_cmd = { version = "2.0.12" }
 predicates = { version = "3.0.3" }
-proc-macro2 = { version = "1.0.63" }
+proc-macro2 = { version = "1.0.66" }
