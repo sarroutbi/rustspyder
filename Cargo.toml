@@ -7,4 +7,4 @@ edition = "2021"
 clap = { version = "4.4.3", features = ["derive"] }
 assert_cmd = { version = "2.0.12" }
 predicates = { version = "3.0.3" }
-proc-macro2 = { version = "1.0.66" }
+proc-macro2 = { version = "1.0.67" }
