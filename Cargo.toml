@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-clap = { version = "4.4.13", features = ["derive"] }
+clap = { version = "4.4.14", features = ["derive"] }
 assert_cmd = { version = "2.0.12" }
 predicates = { version = "3.0.4" }
 proc-macro2 = { version = "1.0.76" }
