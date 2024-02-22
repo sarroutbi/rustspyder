@@ -25,7 +25,9 @@ jobs:
           - fedora:latest
           - quay.io/centos/centos:stream9
           - debian:latest
-          - ubuntu:latest
+          - ubuntu:jammy
+         # TODO: verify from time to time to check if ready
+         #- ubuntu:latest
         stable: [true]
     steps:
       - uses: actions/checkout@v4
