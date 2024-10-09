@@ -26,6 +26,8 @@ COMMON="git file bzip2 g++ pkg-config openssl valgrind tree"
 DEBIAN_UBUNTU="curl libssl-dev"
 FEDORA_CENTOS="openssl-devel"
 
+echo "DISTRO=${DISTRO}"
+
 case "${DISTRO}" in
 debian:*|ubuntu:*)
     export DEBIAN_FRONTEND=noninteractive
